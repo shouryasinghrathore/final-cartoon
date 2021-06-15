@@ -1,0 +1,286 @@
+*{  margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+} 
+body{
+      background-color: rgb(0, 0, 0); 
+}
+.navbar{
+     /* padding-left: 106px; */
+    display: flex; 
+    height: 157px; width:100%;
+    justify-content:stretch ; 
+    background-color: rgb(255, 255, 255);
+}
+.navbar .logo{
+    padding-top: 39px;
+}
+div ul{  
+
+    margin-left: -117px;
+    padding-top: 67px;
+}
+.navbar div{ 
+    padding-left: 163px; 
+ 
+}
+.navbar li{  padding: 12px; 
+    display: inline-block; 
+}
+.navbar li a{ 
+    
+     color:black; 
+        transition: 0.2s;
+     font-size: 16.5px;
+     padding-bottom: 6px;
+ text-decoration: none; 
+}
+.home a{ 
+    border-bottom: 3.9px solid rgb(40, 167, 252);
+    padding-bottom: 6px;
+}
+.navbar ul li a:hover{ 
+    border-bottom: 3.9px solid rgb(40, 167, 252);
+   
+}
+
+
+/* ----------------------------------------------------------------------------------------------- */
+main{
+    padding-left: 11%;
+}
+
+main h3{ font-size: 32.6px;
+padding-top: 30px; 
+    padding-bottom: 6px;
+    font-weight: 550; 
+    position: relative;
+    color: rgb(255, 255, 255);  
+}
+figure span p{
+    color: white; font-size: 12.8px; font-weight: -100;
+    position: relative;
+    padding-bottom: 19px; text-transform: capitalize;
+}
+
+
+figure span span
+{ text-transform: uppercase; font-size: 18px; 
+    position: relative; 
+    bottom: 50px; left :14px;
+    color: rgb(255, 255, 255);
+}
+ .in{
+    display: inline-block;
+}
+
+.container div figure img{ 
+    opacity: 0.9;
+    transition: 0.2s ease-out;
+    cursor: pointer;
+  width: 420px;  height:353px; 
+
+}
+
+.container div figure{ 
+    overflow: hidden;
+   height:353px;  
+   width: 420px;
+ 
+}
+.container figure img:hover{ 
+    opacity: 0.7;
+
+transform: scale(1.02); 
+
+
+}
+
+/* ----------------------------------------------------------------------------- */ 
+.row2{
+    padding-top:1.2px ;
+} 
+
+.in {
+    display: inline-block;
+}
+
+.row2 div figure {
+    width: 314px;
+    height: 275px;
+}
+
+.row2 div figure img{ 
+    height: 275px;
+    transition: 0.2s ease-out;
+     cursor: pointer;
+  width: 314px;  
+  opacity: 0.9;
+
+}
+
+.row2 div figure {
+    overflow: hidden;
+}
+
+
+
+.row2 figure img:hover{ 
+    opacity: 0.7;
+transform: scale(1.02); 
+}
+
+/* ---------------------------------- */
+ .row3{  padding-top:1.2px ; 
+}
+ 
+.in {
+    display: inline-block;
+}
+
+.row3 div figure {
+    width: 314px;
+    height: 266px;
+}
+
+.row3 div figure img{ 
+    height: 266px;
+    transition: 0.2s ease-out;
+     cursor: pointer;
+  width: 325px;  
+}
+
+.row3 div figure {
+    overflow: hidden;
+}
+
+.row3 figure img:hover{ 
+    opacity: 0.7;
+transform: scale(1.02); 
+}
+
+
+/* ------------------------------------------------------------ */
+ .d-title{ font-size: 2.9vh;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 550;
+}
+.d-text{ font-size: 92.8%;
+    color: white;  
+    font-weight: 100;
+    font-family: serif;
+}
+ nav ul li a{
+    text-decoration: none;
+    color: rgb(29, 18, 18);
+} 
+
+ .topfoot{ padding: 3%; 
+    color: white; 
+    font-size: 14px;
+    background-color: rgb(34, 33, 33); 
+    text-align:center;
+}
+
+
+.other{
+    color: rgb(202, 197, 197);
+    text-align:center; 
+    padding:8% ;
+}
+.other,li{ font-size: 15px;
+    padding: 10px; 
+    margin-top: -10px;
+}
+.c{
+     margin-top: 27.6px; 
+    color: rgb(129, 123, 123); 
+    text-align: center;
+     position: relative;    
+}
+.ot{ 
+    padding: 2.5%;
+}
+
+.corus{ 
+    font-size: 37px; 
+    color: rgb(255, 255, 255);
+ padding-top: 1.1%;
+ padding-right: 3.1%;
+ border-right: 2px solid rgb(122, 122, 122);
+  font-weight: 600; 
+} 
+.home{
+    cursor: pointer;
+}
+/* .line{ padding-top: 1.1%; 
+      border-right: 2px rgb(85, 84, 84) solid; 
+      padding-left: 49.7px;
+      padding-right: 9.7px;
+    
+    } */
+
+ .dlog{
+     padding-right: 44px;
+     padding-left: 44px;
+    }  
+ .dlogo a{
+     padding-left: 45px;
+    }  
+ 
+  li{
+      padding: 33px;
+  }
+ li a{
+     color: rgb(255, 255, 255);
+     text-decoration:none ;  
+  
+ }
+ .topfoot{
+     padding-left: 16%;
+ }
+ article.h a{
+    color: rgb(255, 255, 255); 
+    text-decoration:none ;
+}
+.topfoot li a:hover{ 
+color: rgb(58, 117, 245);
+
+}
+.topfoot li{ text-align: center;
+    display: inline-block;
+}
+.topfoot li a{ 
+    font-size: 14.5px; 
+}
+.downfoot{
+    display: flex; 
+    justify-content: center; 
+    flex-wrap: wrap;
+  }  
+  .ab{ padding-top: 43px;font-family:
+     sans-serif;
+      color: white;font-size: 99%; 
+  }
+.ab p{ padding-top: 18px;
+    max-width: 87%;
+}
+
+
+  .b{ padding-top: 20px;font-family: sans-serif;
+      color: white;font-size: 99%; 
+  }
+.b p{ padding-top: 16px;
+    max-width: 87%;
+}
+
+
+.downfoot img a{
+    padding: 33px;
+}
+
+
+
+
